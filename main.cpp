@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	const int array_size = 2; //Palielinam masivu par 1
+	const int array_size = 2;
 
 	Name *Names[array_size];
 	
@@ -14,10 +14,10 @@ int main()
 	a.setName("Andrejs");
 	
 	Mareks b;
-	b.setName("Mareks") // definejam savu vardu ka klases objektu
+	b.setName("Mareks"); 
 	
 	Names[0] = &a;
-	Names[1] = &b; // pieskiram savu objektu pedejam elementam masivaa
+	Names[1] = &b;
 	
 	for (int i=0; i<array_size; i++)
 		Names[i]->Print();

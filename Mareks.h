@@ -1,5 +1,3 @@
-#ifdef Mareks_H
-#define Mareks_H
 #include <iostream>
 #include "Name.h"
 
@@ -16,4 +14,4 @@ class Mareks: public Name {
 		
 		string name;
 };
-#endif
+
